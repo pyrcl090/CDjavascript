@@ -1,0 +1,97 @@
+body{
+    margin: 0%;
+    cursor: auto;
+}
+img{
+    mix-blend-mode: difference;
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+.save-button{
+    position: absolute;
+    left: 1%;
+    bottom: 2%;
+    width: 10%;
+    height: 8%;
+    border: 2px solid black;
+    border-radius: 50px;
+    background-color: #BE35FF;
+    cursor: pointer;
+    animation-name: appear;
+    animation-duration: 1s;
+    animation-delay: 2s;
+}
+.save-text{
+    position: absolute;
+    top: -15%;
+    left: 5%;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 50px;
+}
+.save-button:hover{
+    background-color: #6DC8C5
+}
+.refresh-button{
+    position: absolute;
+    left: 12%;
+    bottom: 2%;
+    width: 16.5%;
+    height: 8%;
+    border: 2px solid black;
+    border-radius: 50px;
+    background-color: #BE35FF;
+    cursor: pointer;
+}
+.refresh-text{
+    position: absolute;
+    top: -15%;
+    left: 5%;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 50px;
+}
+.refresh-button:hover{
+    background-color: #6DC8C5
+}
+*,
+*:before,
+*:after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.popup{
+    background-color: #ffffff;
+    width: 50%;
+    padding: 30px 40px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 47%;
+    border: 2px solid black;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 25px;
+    display: none;
+    text-align: center;
+}
+.popup button{
+    display: block;
+    margin:  0 0 20px auto;
+    background-color: transparent;
+    font-size: 40px;
+    color: #BE35FF;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.popup button:hover{
+    color: #6DC8C5
+}
+.popup p{
+    font-size: 25px;
+    margin: 20px 0;
+    line-height: 25px;
+}
+.title{
+    font-family: 'Berzulis-MAGYLA';
+    font-size: 80px;
+    color: #BE35FF;
+}

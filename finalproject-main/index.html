@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>post comfort</title>
+    <script src="music.js" async defer></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="popup">
+        <button id="close">&times;</button>
+        <p>
+            Please turn on your sound to enjoy the best experience. Interact by moving your mouse and clicking on the canvas.
+        </p>
+    </div>
+    <canvas id="canvas">
+    </canvas>
+   </div>
+    <button onclick="saveCanvas()" class="save-button">
+        <div class="save-text">SAVE</div>
+    </button>
+
+    <button onclick="refreshCanvas()" class="refresh-button">
+    <div class="refresh-text">REFRESH</div>
+    </button>
+</body>
+</html>
